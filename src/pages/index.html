@@ -7,13 +7,20 @@
     <title>My Project</title>
 </head>
 <body>
-    <h1 class="text-center text-5xl font-bold my-12 text-primary underline decoration-primary decoration-4 underline-offset-8">Welcome!</h1>
-
-    <include src="components/hello_world.html"></include>
-
-    <section class="text-center">
-        <a href="https://daisyui.com/docs" target="_blank" class="btn btn-primary">DaisyUI Documentation</a>
-        <a href="https://tailwindcss.com/docs" target="_blank" class="btn btn-secondary">Tailwind CSS Documentation</a>
-    </section>
+    <div class="hero bg-base-200 min-h-screen">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    <img
+      src="/src/assets/BloomJoy (1).png"
+      class="max-w-sm rounded-lg shadow-2xl"
+    />
+    <div>
+      <h1 class="text-5xl font-bold">Welcome To BloomJoy!</h1>
+      <p class="py-6">
+        Here at BloomJoy, you're allowed to decompress. We don't charge any booking fee of the sort! Come book and save your spot for the day. Let yourself have a moment to breathe and relax while being artsy or just sit and nap.
+      </p>
+      <button class="btn btn-xl">Come Book With Us!</button>
+    </div>
+  </div>
+</div>
 </body>
 </html>

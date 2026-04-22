@@ -45,4 +45,8 @@
   --noise: 0;
   }
 
+  text-lg: 1.
   
+  .center-text {
+    text-align: center;
+  }

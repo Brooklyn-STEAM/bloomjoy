@@ -9,6 +9,13 @@ export default {
         vituum(),
         posthtml({root: './src'}),
         tailwindcss(),
-        cloudflare()
+        cloudflare({
+            config: {
+                routes: [
+                    { pattern: 'bloomjoy.cyberchase.co', custom_domain: true }
+                ],
+                preview_urls: true
+            }
+        })
     ]
 }
